@@ -22,17 +22,18 @@ export const Hero = () => {
             </h2>
           </main>
           <a href="">
-            <img
+            <Image
               src="https://made-with.prisma.io/dark.svg"
               width={220}
               height={130}
-              alt=""
+              alt="logo"
+              unoptimized
             />
           </a>
 
           <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0 text-balance">
-            Stripe subscriptions are intimidating, but they don't have to be.
-            Let's prove it.
+            Stripe subscriptions are intimidating, but they don&apos;t have to
+            be. Let&apos;s prove it.
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
